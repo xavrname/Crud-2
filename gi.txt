@@ -1,0 +1,74 @@
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+🛠 Informes de diagnóstico
+(Usados por Node.js para reportes de errores)
+
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+🔄 Datos en tiempo de ejecución
+pids
+*.pid
+*.seed
+*.pid.lock
+📂 Directorios de cobertura y pruebas
+lib-cov (Bibliotecas instrumentadas)
+coverage (Directorios de cobertura)
+*.lcov (Formatos de cobertura)
+.nyc_output (Salida de NYC para cobertura)
+🔧 Archivos y directorios de herramientas
+.grunt (Almacenamiento de Grunt)
+bower_components (Dependencias de Bower)
+.lock-wscript (Configuración de node-waf)
+build/Release (Complementos binarios compilados)
+📦 Directorios de dependencias
+node_modules/
+jspm_packages/
+web_modules/ (Snowpack)
+📜 Cachés y archivos de configuración
+*.tsbuildinfo (Cache de TypeScript)
+.npm (Cache opcional de npm)
+.eslintcache (Cache opcional de ESLint)
+.stylelintcache (Cache opcional de Stylelint)
+.rpt2_cache/ (Cache de Microbundle)
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+💾 Historial y archivos generados
+.node_repl_history (Historial de la REPL de Node.js)
+*.tgz (Salida de npm pack)
+.yarn-integrity (Archivo de integridad de Yarn)
+🔑 Archivos de entorno
+(Variables de entorno y configuración)
+
+.env
+.env.development.local
+.env.test.local
+.env.production.local
+.env.local
+🚀 Caché de herramientas y frameworks
+.cache/
+.parcel-cache (Parcel)
+.next (Next.js)
+out (Next.js Output)
+.nuxt (Nuxt.js)
+dist (Output de Nuxt.js/Gatsby)
+.vuepress/dist (VuePress)
+.temp (VuePress v2.x)
+.docusaurus (Docusaurus)
+📡 Directorios de servidores y bases de datos
+.serverless/
+.fusebox/
+.dynamodb/
+🛠 Herramientas y configuraciones específicas
+.tern-port (Archivo de puerto para TernJS)
+.vscode-test (Versiones de VSCode para pruebas)
+🧶 Archivos y directorios de Yarn v2
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
